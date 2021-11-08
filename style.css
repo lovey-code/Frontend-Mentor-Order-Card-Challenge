@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0;
+    box-sizing: content-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-section{
+    background-image:url("../Website/images/pattern-background-desktop.svg");
+ background-color: hsl(225, 100%, 94%);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+.card{
+    background-color: #fff;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    height: 90vh;
+    max-height: 600px;
+    margin: auto;
+    color: hsl(224, 23%, 55%);
+}
+.card:hover{
+    box-shadow: 1px 1px 10px hsl(224, 23%, 55%);
+}
+h1,b{
+    color: hsl(223, 47%, 23%);
+    /*font-family: 'Red Hat Display', sans-serif; */
+}
+.card-top-img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 32%;
+    align-content: space-around;
+}
+.card-text .text{
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+.card-text .text{
+    text-align: center;
+}
+.card-text .down-link{
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 15px;
+    margin-left: 45%;
+    
+    color: hsl(217, 4%, 39%);
+    /* font-family: 'Red Hat Display', sans-serif; */
+}
+
+.card-text a:hover{
+    color: hsl(223, 47%, 23%);
+}
+.price-div{
+    /* border: solid; */
+    /* background-color: hsl(224, 23%, 55%); */
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 10px;
+}
+.price-div a{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: bolder;
+}
+.price-div a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.price-div .left{
+    /* margin: auto; */
+    /* border:solid; */
+    align-self: center;
+    display: flex;
+    /* flex-direction:column; */
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+.btn{
+    /* display: block; */
+    background-color: hsl(245, 75%, 52%);
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 30%;
+    color: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(245, 91%, 66%);
+}
+@media only screen and (min-width: 1440px){
+}
+@media only screen and (max-width:375px){
+}
